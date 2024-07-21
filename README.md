@@ -1,6 +1,7 @@
 Neste projeto, configurei uma DAG no Airflow para provisionar uma instância EC2, com Terraform, e realizar a ingestão de dados em um dataset no BigQuery.
 
-![image](https://github.com/user-attachments/assets/5f00c35c-c4f2-40fd-9c89-c74086ba0a42)
+![image](https://github.com/user-attachments/assets/80c30806-183b-40fe-965b-6ce476a712e1)
+
 
 As taks desta DAG consistem, basicamente, nas etapas de execução do Terraform
 ![image](https://github.com/user-attachments/assets/c9cd4199-3a61-4bfa-992f-266b82d2ac35)
