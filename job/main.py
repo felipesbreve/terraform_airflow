@@ -2,8 +2,7 @@ import os
 import pandas as pd
 from google.oauth2 import service_account
 
-credential = 'bq_key.json'
-credentials = service_account.Credentials.from_service_account_file(credential)
+credentials = service_account.Credentials.from_service_account_file('sua-chave-de-acesso-ao-big-query')
 
 project_id = 'hybrid-essence-429900-j9'
 
