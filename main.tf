@@ -42,7 +42,7 @@ resource "aws_instance" "app_server" {
   connection {
     type        = "ssh"
     user        = "ubuntu"
-    private_key = file("terraform.pem")
+    private_key = file("sua-chave-de-acesso-a-aws")
     host        = self.public_ip
   }
 }
